@@ -11,6 +11,8 @@ const IngredientForm = React.memo(props => {
   const submitHandler = event => {
     event.preventDefault();
     props.onAddIngredients({title:enterTitle, amount:enterAmount})
+    setEnterTitle('')
+    setEnterAmount('')
     // ...
   };
  
