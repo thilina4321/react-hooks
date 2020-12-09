@@ -5,6 +5,8 @@ import './IngredientForm.css';
 
 const IngredientForm = React.memo(props => {
 
+  console.log('Render ingredients form');
+
   const [enterTitle, setEnterTitle] = useState('')
   const [enterAmount, setEnterAmount] = useState('')
   
